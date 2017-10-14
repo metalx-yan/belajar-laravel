@@ -25,5 +25,14 @@ class SitesController extends Controller
   {
       return view('sites.hello');
   }
+  /**
+   * Show hello name page
+   *
+   * @return view
+   */
+  public function helloName($param)
+  {
+      return view('sites.hello-name', compact('param'));
+  }
   
 }

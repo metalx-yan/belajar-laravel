@@ -79,14 +79,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Hello {{$param}}
                 </div>
 
                 <div class="links">
-                    <a href="{{ route('hello' )}}">
-                        <strong>Click me</strong>
-                    </a>
-                    <a href="{{ route('hello-name', 'World') }}">Hello World</a>
+                    <a href="{{ route('root' )}}">Root Path</a>
+                    <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>

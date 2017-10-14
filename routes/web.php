@@ -12,4 +12,5 @@
 */
 
 Route::get('/', 'SitesController@welcome' )->name('root');
-Route::get('/hello', 'SitesController@hello' );
+Route::get('/hello', 'SitesController@hello' )->name('hello');
+Route::get('/hello/{name}', 'SitesController@helloName' )->name('hello-name');
